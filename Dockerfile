@@ -6,4 +6,4 @@
 
 FROM php:fpm-alpine
 LABEL maintainer="Asdrubal Gonzalez" description="PHP Images with PDO PDO_MYSQL MYSQLi and other EXt"
-RUN docker-php-ext-install pdo pdo_mysql mysqli mcrypt mbstring cli intl
+RUN docker-php-ext-install pdo pdo_mysql mysqli mbstring intl zip curl
